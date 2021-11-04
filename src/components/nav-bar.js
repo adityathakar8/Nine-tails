@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
-
     return (
         // <nav class="navbar navbar-expand-lg navbar-dark ">
         //   <Link class="navbar-brand" href="#">Nine-Tails</Link>
@@ -32,16 +30,18 @@ function Navbar() {
                 <h3>Nine-Tails</h3>
             </Link>
             <ul className="nav justify-content-end navbar-right">
-
-
                 <li className="nav-item items">
                     <Link className="nav-link" to="/form">
-                        <h5><i class="fas fa-search"></i></h5>
+                        <h5>
+                            <i className="fas fa-search"></i>
+                        </h5>
                     </Link>
                 </li>
                 <li className="nav-item items">
                     <Link className="nav-link" to="/about">
-                        <h5><i class="fas fa-question"></i></h5>
+                        <h5>
+                            <i className="fas fa-question"></i>
+                        </h5>
                     </Link>
                 </li>
             </ul>
